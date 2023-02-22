@@ -9,11 +9,14 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
+#test {
+    background-color: rgb(135, 69, 69);
+}
 header {
     position: relative;
     height: 120px;
     width: 100%;
-    border: 0px solid rgb(0, 0, 0);
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -48,6 +51,54 @@ header ul li {
     opacity: 80%;
 }
 #xtra-space {
-    height: 2000px;
+    height: 1000px;
+}
+
+/*This part for Main index page */
+
+
+
+.intro {
+    color: #fff;
+    opacity: 80%;
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+}
+.intro h1 {
+    font-family: 'Hanuman', serif;
+    color:blanchedalmond;
+}
+
+.norway {
+    height: 400px;
+    width: 600px;
+    border: 6px ridge rgb(66, 84, 91);
+    border-radius: 25px;
+}
+
+.mountain {
+    margin-left: 120px;
+}
+.me {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro.more {
+    padding-left: 100px;
+    padding-right: 0px;
 }
 
