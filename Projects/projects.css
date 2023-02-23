@@ -18,7 +18,7 @@ h1 {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.requests {
+#requests {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -51,4 +51,12 @@ h1 {
     height: 36px;
     width: 153px;
     opacity: 100%;
+}
+
+.submitted-query {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
 }

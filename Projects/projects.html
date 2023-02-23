@@ -26,16 +26,13 @@
     <br>
     <br>
     <div class="empty">
-        <form class="requests">
+        <form id="requests">
             <p1>Give me a suggestion!</p1>
             <br>
-            <input type="text" placeholder="e.g. build tic-tac-toe">
+            <input type="text" placeholder="e.g. build tic-tac-toe" id="suggy">
             <br>
             <input type="submit" class="submit">
         </form>
-    </div>
-    <div class="submitted-query">
-        <h2 class="change"></h2>
     </div>
     <div class="eye-exam">
         <h2>Let's do an Eye exam:</h2>
@@ -46,7 +43,11 @@
     </div>
     <div id="xtra-space"></div>
     <script>
-        
+        const myForm = document.getElementById('requests');
+        const myInput = document.getElementById('suggy');
+        myForm.addEventListener('submit', () => {
+            alert(`You suggested: ${myInput.value}`);
+        });
     </script>
 </body>
 </html>
