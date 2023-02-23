@@ -17,3 +17,38 @@ h1 {
     border-radius: 15px;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.requests {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    opacity: 85%;
+}
+
+.empty input {
+    border: #fff solid 2px;
+    height: 35px;
+    width: 150px;
+    color: #fff;
+    font-size: large;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+.eye-exam {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit:hover {
+    height: 36px;
+    width: 153px;
+    opacity: 100%;
+}
